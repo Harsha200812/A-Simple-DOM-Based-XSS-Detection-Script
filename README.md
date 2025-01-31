@@ -78,5 +78,5 @@ MIT License
 
 ## Contact
 
-For any questions, reach out via [your email] or connect on [LinkedIn/GitHub].
+For any questions, reach out via harshamanchala28@gmail.com 
 
