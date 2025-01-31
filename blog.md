@@ -57,6 +57,6 @@ This project highlights how **AI-assisted security tools** can help detect sophi
 
 I’m excited to continue improving this agent and exploring AI-powered cybersecurity tools. If you’re interested in collaborating or have feedback, feel free to reach out!
 
-📌 **GitHub Repository:** [Link to your project]
-📌 **Let’s Connect!** [Your LinkedIn/GitHub]
+📌 **GitHub Repository:** https://github.com/Harsha200812/A-Simple-DOM-Based-XSS-Detection-Script
+
 
