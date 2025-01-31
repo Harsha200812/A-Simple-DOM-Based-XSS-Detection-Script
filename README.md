@@ -24,8 +24,8 @@ This project introduces an intelligent security agent designed to detect **DOM-B
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/llm-xss-detector.git
-cd llm-xss-detector
+git clone https://github.com/Harsha200812/A-Simple-DOM-Based-XSS-Detection-Script.git
+cd A-Simple-DOM-Based-XSS-Detection-Script
 
 # Install dependencies
 pip install js2py esprima
@@ -36,15 +36,22 @@ pip install js2py esprima
 ### Running the Detection Script
 
 ```bash
-python detect_xss.py example.js
+python dom_xss_detector.py
 ```
 
-This will analyze `example.js` and output any detected **DOM-Based XSS vulnerabilities**.
+This will analyze JavaScript code and output any detected **DOM-Based XSS vulnerabilities**.
 
-### Example Output
+## Example Output
 
+```bash
+Potential DOM-Based XSS vulnerabilities detected:
+- Potential XSS: var userInput = document.location.hash.substring(1); document.getElementById("output").innerHTML = userInput;
 ```
-Potential DOM-Based XSS found: User-controlled input from 'document.location' flows into 'innerHTML' without sanitization.
+
+If no vulnerabilities are found, it will output:
+
+```bash
+No vulnerabilities found.
 ```
 
 ## How It Works
@@ -78,5 +85,5 @@ MIT License
 
 ## Contact
 
-For any questions, reach out via harshamanchala28@gmail.com 
+For any questions, reach out via [itsmeharsh028@gmail.com](mailto:itsmeharsh028@gmail.com) or connect on [GitHub](https://github.com/Harsha200812).
 
